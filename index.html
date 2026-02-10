@@ -1,9 +1,32 @@
+<style>
+  /* some só o header do tema e o topo "GAIA Interiores / Luxo e Sofisticação" */
+  .site-header, #site-header, #masthead,
+  .page-header, .entry-header, .breadcrumb, .breadcrumbs {
+    display: none !important;
+  }
+
+  /* mata a borda / container */
+  html, body { margin: 0 !important; padding: 0 !important; width: 100%; overflow-x: hidden; }
+  #page, #content, .site, .site-content, .container, .wrap, .content-area, main {
+    max-width: 100% !important; margin: 0 !important; padding: 0 !important;
+  }
+.site-footer,
+  #site-footer,
+  #colophon,
+  .footer,
+  .main-footer,
+  .page-footer {
+    display: none !important;
+  }
+
+</style>
+
 <!doctype html>
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Loja ao Vivo - Outlet Gaia</title>
+    <title>LIVE SHOP AO VIVO - Outlet Gaia</title>
 
     <!-- Tailwind CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -37,7 +60,7 @@
         <img
           alt="Outlet Gaia"
           class="h-[42px] w-auto"
-          src="img\Logo-Gaia.png"
+          src="https://res.cloudinary.com/dmnxpy5zt/image/upload/v1770688810/branco_1-8_huqbzg.png"
         />
       </div>
       <div class="h-[4px] bg-[#F97316]"></div>
@@ -75,7 +98,7 @@
             class="font-extrabold tracking-tight text-[#EA580C]"
             style="font-size: clamp(44px, 5vw, 72px); line-height: 1.02"
           >
-            LOJA AO VIVO
+          LIVE SHOP AO VIVO
           </h1>
 
           <h2
@@ -565,7 +588,7 @@
             />
           </div>
           <span
-            class="absolute right-3 top-3 rounded-full bg-[#EF4444] px-3 py-1 text-[12px] font-extrabold text-white shadow-[0_10px_20px_rgba(0,0,0,0.18)]"
+            class="absolute right-3 top-3 rounded-full bg-[#EF4444] px-3 py-1 text-[20px] font-extrabold text-white shadow-[0_10px_20px_rgba(0,0,0,0.18)]"
             >-50%</span
           >
         </div>
@@ -609,7 +632,7 @@
             />
           </div>
           <span
-            class="absolute right-3 top-3 rounded-full bg-[#EF4444] px-3 py-1 text-[12px] font-extrabold text-white shadow-[0_10px_20px_rgba(0,0,0,0.18)]"
+            class="absolute right-3 top-3 rounded-full bg-[#EF4444] px-3 py-1 text-[20px] font-extrabold text-white shadow-[0_10px_20px_rgba(0,0,0,0.18)]"
             >-50%</span
           >
         </div>
@@ -652,7 +675,7 @@
             />
           </div>
           <span
-            class="absolute right-3 top-3 rounded-full bg-[#EF4444] px-3 py-1 text-[12px] font-extrabold text-white shadow-[0_10px_20px_rgba(0,0,0,0.18)]"
+            class="absolute right-3 top-3 rounded-full bg-[#EF4444] px-3 py-1 text-[20px] font-extrabold text-white shadow-[0_10px_20px_rgba(0,0,0,0.18)]"
             >-50%</span
           >
         </div>
@@ -695,7 +718,7 @@
             />
           </div>
           <span
-            class="absolute right-3 top-3 rounded-full bg-[#EF4444] px-3 py-1 text-[12px] font-extrabold text-white shadow-[0_10px_20px_rgba(0,0,0,0.18)]"
+            class="absolute right-3 top-3 rounded-full bg-[#EF4444] px-3 py-1 text-[20px] font-extrabold text-white shadow-[0_10px_20px_rgba(0,0,0,0.18)]"
             >-50%</span
           >
         </div>
@@ -732,22 +755,26 @@
         <div class="relative">
           <div class="aspect-[4/3] w-full bg-black/5">
             <img
-              src="https://res.cloudinary.com/dmnxpy5zt/image/upload/v1770492604/Poltrona_sof%C3%A1_lh4jgv.jpg"
-              alt="Poltrona Sofá"
-              class="h-full w-full object-cover"
+              src="https://res.cloudinary.com/dmnxpy5zt/image/upload/v1770689200/cadeira_yrby7u.jpg"
+              alt="Cadeira"
+              class="h-full w-full object-contain"
             />
           </div>
-          
+          <span
+            class="absolute right-3 top-3 rounded-full bg-[#EF4444] px-3 py-1 text-[20px] font-extrabold text-white shadow-[0_10px_20px_rgba(0,0,0,0.18)]"
+            >-50%</span
+          >
         </div>
 
         <div class="p-5">
           <h3 class="text-[15px] font-extrabold text-[#0F172A]">
-            Poltrona Sofá
+            Cadeira
           </h3>
 
           <div class="mt-3 flex items-end gap-3">
+            <span class="text-[12px] text-[#9CA3AF] line-through">R$ 990,00</span>
+            <span class="text-[18px] font-extrabold text-[#F97316]">R$ 445,00</span>
             
-            <span class="text-[18px] font-extrabold text-[#F97316]">R$ 9.954,00</span>
           </div>
 
           <div class="mt-4 flex items-center gap-2 text-[#F97316]">
@@ -772,25 +799,25 @@
         <div class="relative">
           <div class="aspect-[4/3] w-full bg-black/5">
             <img
-              src="https://res.cloudinary.com/dmnxpy5zt/image/upload/v1770492604/Sof%C3%A1_Cama_tffph8.jpg"
-              alt="Sofá Cama 1,58m com Colchão Casal Detalhe Couro Sintético Caramelo"
+              src="https://res.cloudinary.com/dmnxpy5zt/image/upload/v1770689579/IMG_7429_pp1gib.jpg"
+              alt="Sofá esmeralda"
               class="h-full w-full object-cover"
             />
           </div>
           <span
-            class="absolute right-3 top-3 rounded-full bg-[#EF4444] px-3 py-1 text-[12px] font-extrabold text-white shadow-[0_10px_20px_rgba(0,0,0,0.18)]"
+            class="absolute right-3 top-3 rounded-full bg-[#EF4444] px-3 py-1 text-[20px] font-extrabold text-white shadow-[0_10px_20px_rgba(0,0,0,0.18)]"
             >-50%</span
           >
         </div>
 
         <div class="p-5">
           <h3 class="text-[15px] font-extrabold text-[#0F172A]">
-            Sofá Cama 1,58m com Colchão Casal Detalhe Couro Sintético Caramelo
+            Sofá esmeralda 2.20m
           </h3>
 
           <div class="mt-3 flex items-end gap-3">
-            <span class="text-[12px] text-[#9CA3AF] line-through">R$ 11.990,00</span>
-            <span class="text-[18px] font-extrabold text-[#F97316]">R$ 5.995,00</span>
+            <span class="text-[12px] text-[#9CA3AF] line-through">R$ 9.990,00</span>
+            <span class="text-[18px] font-extrabold text-[#F97316]">R$ 4.995,00</span>
           </div>
 
           <div class="mt-4 flex items-center gap-2 text-[#F97316]">
@@ -1101,7 +1128,7 @@
         <!-- Logo -->
         <div class="flex justify-center">
           <!-- use o mesmo logo do topo -->
-          <img src="img\Logo-Gaia.png" alt="Outlet Gaia" class="h-[26px] w-auto opacity-90" />
+          <img src="https://res.cloudinary.com/dmnxpy5zt/image/upload/v1770688810/branco_1-8_huqbzg.png" alt="Outlet Gaia" class="h-[26px] w-auto opacity-90" />
         </div>
   
         <p class="mt-6 text-[14px] text-white/60">
